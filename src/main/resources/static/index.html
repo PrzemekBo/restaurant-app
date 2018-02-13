@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Restaurant</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+</head>
+	<body>
+	
+	<div class="jumbotron">
+		<h1 style="margin-left: 35%">Restaurant here</h1>
+		<div id="container" style="margin-left: 43%; margin-top: 10%;">
+		
+				<div class='form-group' style="max-width: 200px;">
+					<form class='form-inline'>
+					
+							<span class="label label-default">Enter name</span>
+							<input type="text" id="name" class="form-control" placeholder ="name"/>    </br></br>
+							
+							<span class="label label-default">Enter surname</span>
+							<input type="text" id="surname" class="form-control" placeholder ="surname"/> </br></br>
+							
+							<span class="label label-default">Enter email</span>
+							<input type="text" id="email" class="form-control" placeholder ="email"/>   </br></br>
+							
+							<span class="label label-default">Table types : double, quadriple, family</span>
+							<input type="text" id="table_type" class="form-control" placeholder ="table type"/> </br></br>
+							
+							<span class="label label-default">time eg. 18,February,2018,18:26</span>
+							<input type="text" id="reservation_time" class="form-control" placeholder ="enter time"/> </br></br>
+							
+							<span class="label label-default">Enter phone numer</span>
+							<input type="text" id="number" class="form-control" placeholder ="number"/>   </br></br></br>
+					</form>
+					 <button id="book-form" class="btn btn-default btn-block"> Reserve </button>
+				</div>
+		</div>
+	</div>	
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="bookingService.js"></script>
+		
+	</body>
+</html>
